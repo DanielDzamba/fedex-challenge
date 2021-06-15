@@ -1,0 +1,26 @@
+button {
+  width: 100%;
+  background-color: $primary-color;
+  color: $white-color;
+  font-weight: 600;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: $primary-color-brigther;
+}
+
+.button--disabled {
+  background-color: $disabled-background-color;
+  color: $disabled-text-color;
+  cursor: default;
+}
+
+.button--disabled:hover {
+  background-color: $disabled-background-color;
+  color: $disabled-text-color;
+}

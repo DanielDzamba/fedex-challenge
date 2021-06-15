@@ -1,0 +1,36 @@
+form {
+  padding: 20px;
+  margin: auto;
+  background-color: $component-background-color;
+  border-radius: $border-radius;
+  overflow: hidden;
+}
+
+.form-header {
+  color: $white-color;
+  background-color: $primary-color;
+  padding: 10px;
+  border-radius: $border-radius-top;
+  margin: -20px -20px 20px -20px;
+}
+
+.error-message-wrapper {
+  background: $error-background-color;
+  border-radius: $border-radius;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.error-message {
+  padding: 0 6px 6px 6px;
+}
+
+.error-message:first-child {
+  padding: 6px;
+}
+
+label {
+  font-weight: 600;
+  color: $primary-color;
+  padding: 5px;
+}
